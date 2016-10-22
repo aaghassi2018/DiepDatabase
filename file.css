@@ -1,4 +1,24 @@
-p {
-    font-family: "Ubuntu", Times, serif;
-    
+p{
+    font-family: "Cambria", Times, serif;
+
+}
+body{
+background-color: rgb(84, 84, 84);;
+}
+div.fixed {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    right: 1;
+    border: 5px solid blue;
+    background-color: white;
+}
+div.static{
+  position: static;
+}
+span.header{
+  font-size: 35px;
+}
+h1.hidden{
+  visibility: hidden;
 }
