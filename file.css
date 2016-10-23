@@ -13,32 +13,19 @@ div.fixed {
     border: 5px solid blue;
     background-color: darkgrey;
 }
-div.static{
-  position: static;
-}
 span.header{
   font-size: 35px;
 }
 h1.hidden{
   visibility: hidden;
 }
-div.classTree{
+a.homeButton:hover, a.homeButton:active{
+  background-color: red;
 
 }
-a.hiddenClassButton{
-    display:inline-block;
-    width:30px;
-    height:30px;
-    background-color:#ccc;
-    border:1px solid #ff0000;
+a.playHere:hover, a.playHere:active{
+  background-color: red;
 }
-
-div.tank
-{
-    position:static;
-
-}
-
-span.playHere{
-  font-size: 75px;
+a.playHere{
+  margin-left: 20;
 }
