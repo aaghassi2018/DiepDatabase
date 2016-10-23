@@ -1,17 +1,17 @@
 p{
-    font-family: "Cambria", Times, serif;
+    font-family: Times, serif;
 
 }
 body{
-background-color: rgb(84, 84, 84);;
+background-color: lightgrey;
 }
 div.fixed {
     position: fixed;
     top: 0;
-    width: 98%;
-    right: 1;
+    left: 0;
+    width: 99%;
     border: 5px solid blue;
-    background-color: white;
+    background-color: darkgrey;
 }
 div.static{
   position: static;
@@ -21,4 +21,24 @@ span.header{
 }
 h1.hidden{
   visibility: hidden;
+}
+div.classTree{
+
+}
+a.hiddenClassButton{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-color:#ccc;
+    border:1px solid #ff0000;
+}
+
+div.tank
+{
+    position:static;
+
+}
+table{
+  width:500px;
+  height: 500px;
 }
