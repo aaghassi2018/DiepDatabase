@@ -38,7 +38,7 @@ div.tank
     position:static;
 
 }
-table{
-  width:500px;
-  height: 500px;
+
+span.playHere{
+  font-size: 75px;
 }
