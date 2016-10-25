@@ -34,7 +34,42 @@ div.container {
 
 }
 
-header, footer {
+.center {
+  text-align: center;
+}
+
+div.half {
+  width: 40%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 2px solid blue;
+  margin: auto;
+  text-align: left;
+  justify-content: space-between;
+}
+
+div.left {
+  width: 40%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 2px solid blue;
+  margin: auto;
+  margin-left: 40px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+div.right {
+  width: 40%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 2px solid blue;
+  margin-left: 80px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+header{
     padding: 0.15em;
     color: white;
     background-color: black;
@@ -51,14 +86,6 @@ table.infoBox{
 
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul a {
-    text-decoration: none;
-}
 
 article {
     padding: 1em;
