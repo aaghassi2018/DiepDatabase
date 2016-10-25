@@ -29,3 +29,39 @@ a.playHere:hover, a.playHere:active{
 a.playHere{
   margin-left: 20;
 }
+div.container {
+    width: 100%;
+
+}
+
+header, footer {
+    padding: 0.15em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+table.infoBox{
+  width: 25%;
+  position: fixed;
+  top: 160px;
+  right: 0;
+  border: 3px solid black;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    padding: 1em;
+    overflow: hidden;
+    margin-right: 35%;
+}
