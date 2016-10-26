@@ -38,23 +38,15 @@ div.container {
   text-align: center;
 }
 
-div.half {
-  width: 40%;
-  box-sizing: border-box;
-  display: inline-block;
-  border: 2px solid blue;
-  margin: auto;
-  text-align: left;
-  justify-content: space-between;
-}
 
 div.left {
   width: 40%;
   box-sizing: border-box;
   display: inline-block;
-  border: 2px solid blue;
+  border: 5px solid blue;
   margin: auto;
-  margin-left: 40px;
+  margin-left: 1em;
+  margin-top: 50px;
   text-align: left;
   justify-content: space-between;
 }
@@ -63,10 +55,20 @@ div.right {
   width: 40%;
   box-sizing: border-box;
   display: inline-block;
-  border: 2px solid blue;
-  margin-left: 80px;
+  border: 5px solid blue;
+  margin-left: 5em;
+  margin-top: 50px;
   text-align: left;
   justify-content: space-between;
+}
+
+div.tactics {
+  width: 70%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 5px solid blue;
+  margin-top: 95px;
+  padding: 10px;
 }
 
 header{
@@ -79,6 +81,7 @@ header{
 
 table.infoBox{
   width: 25%;
+  height: 55%;
   position: fixed;
   top: 175px;
   right: 0;
