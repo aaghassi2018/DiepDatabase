@@ -44,7 +44,7 @@ div.left {
   box-sizing: border-box;
   display: inline-block;
   border: 5px solid blue;
-  margin: auto;
+
   margin-left: 1em;
   margin-top: 50px;
   text-align: left;
@@ -59,7 +59,6 @@ div.right {
   margin-left: 5em;
   margin-top: 50px;
   text-align: left;
-  justify-content: space-between;
 }
 
 div.tactics {
