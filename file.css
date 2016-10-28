@@ -16,7 +16,7 @@ div.fixed {
 span.header{
   font-size: 35px;
 }
-h1.hidden{
+.hidden{
   visibility: hidden;
 }
 a.homeButton:hover, a.homeButton:active{
