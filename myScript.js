@@ -1,5 +1,5 @@
-function changeColor(){
-  if(document.getElementById('testing').style.backgroundColor=='yellow'){
+function changeColor(color){
+  if(color=='lightgrey'){
     document.getElementById('testing').style.backgroundColor='lightgrey';
   }
   else {
