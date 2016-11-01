@@ -1,9 +1,6 @@
-p{
-    font-family: Times, serif;
-
-}
 body{
-background-color: lightgrey;
+  background-color: lightgrey;
+  font-family: Georgia, serif;
 }
 div.fixed {
     position: fixed;
@@ -44,7 +41,6 @@ div.left {
   box-sizing: border-box;
   display: inline-block;
   border: 5px solid blue;
-
   margin-left: 1em;
   margin-top: 50px;
   text-align: left;
@@ -104,4 +100,43 @@ div.control{
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 25px;
+  margin-left: 50px;
+  display: inline-block;;
+}
+
+div.belowAudioVideo{
+  width: 99%;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 25px;
+  display: block;;
+}
+
+div.gameAllAbout{
+  box-sizing: border-box;
+  border: 5px solid blue;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+div.basicRight{
+  width: 30%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 5px solid blue;
+  margin-left: 5em;
+  text-align: left;
+  height: 300px;
+}
+div.basicLeft{
+  width: 40%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 5px solid blue;
+  margin-left: 2em;
+  text-align: left;
+  height: 400px;
 }
