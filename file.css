@@ -64,6 +64,7 @@ div.tactics {
   border: 5px solid blue;
   margin-top: 95px;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 header{
@@ -93,14 +94,14 @@ article {
 
 
 div.control{
-  width: 400px;
+  width: 30%;
   box-sizing: border-box;
   border: 5px solid blue;
   text-align: left;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 25px;
-  margin-left: 50px;
+  margin-left: 20px;
   display: inline-block;;
 }
 
@@ -111,9 +112,11 @@ div.belowAudioVideo{
   padding-right: 25px;
   margin-top: 25px;
   display: block;;
+  margin-bottom: 100px;
 }
 
 div.gameAllAbout{
+  width:30%;
   box-sizing: border-box;
   border: 5px solid blue;
   padding-left: 25px;
