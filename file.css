@@ -13,6 +13,15 @@ div.fixed {
 span.header{
   font-size: 35px;
 }
+div.details{
+  width: 99%;
+  box-sizing: border-box;
+  border: 5px solid blue;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
 .hidden{
   visibility: hidden;
 }
