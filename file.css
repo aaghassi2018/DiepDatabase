@@ -36,10 +36,12 @@ a.playHere:hover, a.playHere:active{
   text-decoration: none;
 
 }
+a.playHere:visited{
+  color: blue;
+}
 a.playHere{
   margin-left: 20px;
   text-decoration: none;
-
 
 }
 div.container {
