@@ -28,13 +28,19 @@ div.details{
 }
 a.homeButton:hover, a.homeButton:active{
   background-color: red;
+  text-decoration: none;
 
 }
 a.playHere:hover, a.playHere:active{
   background-color: red;
+  text-decoration: none;
+
 }
 a.playHere{
   margin-left: 20px;
+  text-decoration: none;
+
+
 }
 div.container {
     width: 100%;
