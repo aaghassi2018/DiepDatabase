@@ -109,19 +109,32 @@ div.control{
   text-align: left;
   padding-left: 25px;
   padding-right: 25px;
-  margin-top: 25px;
+  top: 0;
   margin-left: 20px;
   display: inline-block;;
+  height: 500px;
+  margin-top: 20px;
 }
-
-div.belowAudioVideo{
-  width: 99%;
+div.gameMode{
+  width: 30%;
+  box-sizing: border-box;
+  border: 5px solid blue;
   text-align: left;
   padding-left: 25px;
   padding-right: 25px;
-  margin-top: 25px;
-  display: block;;
-  margin-bottom: 100px;
+  margin-left: 20px;
+  top: 0;
+  display: inline-block;;
+  height: 400px;
+}
+div.belowAudioVideo{
+  width: 99%;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;
+  display: block;
+  top: 0;
 }
 
 div.gameAllAbout{
@@ -130,8 +143,9 @@ div.gameAllAbout{
   border: 5px solid blue;
   padding-left: 25px;
   padding-right: 25px;
-  margin-top: 25px;
   display: inline-block;
+  height: 500px;
+  top:0;
 }
 
 div.basicRight{
